@@ -1,0 +1,12 @@
+{
+  "name": "@verrow/sdk",
+  "version": "0.1.0",
+  "description": "Dependency-free TypeScript client for the Verrow rural data API",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "private": true
+}

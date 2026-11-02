@@ -1,0 +1,120 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BradenTabor/verrow",
+  "title": "Verrow, LLC rural public data",
+  "description": "Rural public data for AI agents. Published by Verrow, LLC.",
+  "version": "0.4.0",
+  "repository": {
+    "url": "https://github.com/BradenTabor/verrow-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.verrow.ai/mcp"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_coverage",
+      "description": "List jurisdictions and data kinds covered (free)"
+    },
+    {
+      "name": "check_coverage",
+      "description": "Check coverage for a jurisdiction and data kind (free)"
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return current per-call prices (free)"
+    },
+    {
+      "name": "create_api_key",
+      "description": "Create a prepaid API key shown once (free)"
+    },
+    {
+      "name": "list_watches",
+      "description": "List watches for an owner token (free)"
+    },
+    {
+      "name": "cancel_watch",
+      "description": "Cancel a watch with its owner token (free)"
+    },
+    {
+      "name": "get_label_rate",
+      "description": "EPA pesticide product lookup (priced)"
+    },
+    {
+      "name": "get_zoning",
+      "description": "Zoning rules for a covered jurisdiction (priced)"
+    },
+    {
+      "name": "check_use_allowed",
+      "description": "Whether a land use is allowed in a zone (priced)"
+    },
+    {
+      "name": "get_recent_decisions",
+      "description": "Recent council and planning decisions (priced)"
+    },
+    {
+      "name": "check_airspace",
+      "description": "FAA UAS airspace check for a point (priced)"
+    },
+    {
+      "name": "get_wind",
+      "description": "NWS wind forecast for a point (priced)"
+    },
+    {
+      "name": "get_esa_limits",
+      "description": "EPA Bulletins Live Two limits (priced)"
+    },
+    {
+      "name": "get_soil",
+      "description": "USDA soil data for a point (priced)"
+    },
+    {
+      "name": "check_license",
+      "description": "Arkansas contractor license lookup (priced)"
+    },
+    {
+      "name": "check_state_registration",
+      "description": "State pesticide registration check (priced)"
+    },
+    {
+      "name": "spray_check",
+      "description": "Combined spray compliance check (priced)"
+    },
+    {
+      "name": "get_site_report",
+      "description": "Cited site feasibility report for an address or parcel (priced)"
+    },
+    {
+      "name": "watch_town",
+      "description": "30-day town decision watch with webhook delivery (priced)"
+    },
+    {
+      "name": "watch_parcel",
+      "description": "30-day parcel watch with webhook delivery (priced)"
+    },
+    {
+      "name": "request_coverage",
+      "description": "Request coverage for a town with call credits (priced)"
+    },
+    {
+      "name": "topup_credits",
+      "description": "Add prepaid credit to an API key over x402 (priced)"
+    },
+    {
+      "name": "solar_siting_check",
+      "description": "Cited county/parcel solar siting rules (priced)"
+    },
+    {
+      "name": "county_pack",
+      "description": "30-day county API credit pack (priced)"
+    }
+  ],
+  "websiteUrl": "https://verrow.ai",
+  "_meta": {
+    "io.verrow.legal-name": "Verrow, LLC",
+    "io.verrow.publisher": "Verrow, LLC"
+  }
+}
