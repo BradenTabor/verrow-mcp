@@ -1,0 +1,22 @@
+{
+  "name": "verrow",
+  "description": "Rural public data for AI agents, priced per call. Covers Harrison AR and Boone County AR. Free tools list coverage, check coverage and show pricing. Paid tools return sourced answers. If a source cannot answer, the result is UNKNOWN and is not charged.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Verrow, LLC",
+    "email": "verrow-records@agentmail.to"
+  },
+  "homepage": "https://verrow.ai",
+  "repository": "https://github.com/BradenTabor/verrow-mcp",
+  "logo": "logo.png",
+  "keywords": [
+    "public-data",
+    "zoning",
+    "government",
+    "agriculture",
+    "rural",
+    "x402"
+  ],
+  "mcpServers": "mcp.json",
+  "license": "MIT"
+}

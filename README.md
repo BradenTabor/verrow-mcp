@@ -98,3 +98,13 @@ Data is compiled from public government sources and may be out of date or incomp
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Use in Cursor
+
+Install **Verrow** from the Cursor Marketplace, or add it manually in `~/.cursor/mcp.json`:
+
+```json
+{ "mcpServers": { "verrow": { "url": "https://api.verrow.ai/mcp" } } }
+```
+
+Free tools (list_coverage, check_coverage, get_pricing) work with no key. Paid tools return HTTP 402 with x402 payment requirements (USDC on Base), or use a prepaid key via Authorization: Bearer rk_.... Current prices: https://api.verrow.ai/v1/pricing. Not-covered fully UNKNOWN answers are not charged. Permissions: network access to api.verrow.ai only; no local filesystem or shell access. Support: verrow-records@agentmail.to · Terms: https://api.verrow.ai/terms · Privacy: https://api.verrow.ai/privacy

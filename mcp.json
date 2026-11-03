@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "verrow": {
+      "url": "https://api.verrow.ai/mcp"
+    }
+  }
+}
