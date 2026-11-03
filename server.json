@@ -116,5 +116,14 @@
   "_meta": {
     "io.verrow.legal-name": "Verrow, LLC",
     "io.verrow.publisher": "Verrow, LLC"
-  }
+  },
+  "icons": [
+    {
+      "src": "https://api.verrow.ai/logo.png",
+      "sizes": [
+        "512x512"
+      ],
+      "mimeType": "image/png"
+    }
+  ]
 }

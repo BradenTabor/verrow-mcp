@@ -1,8 +1,12 @@
 # Verrow MCP
 
+![Verrow logo](logo.png)
+
+
 Verrow, LLC sells sourced rural public data to AI agents. This public repository is the listing and SDK example surface for the Verrow remote MCP server.
 
 - **Remote MCP server:** https://api.verrow.ai/mcp (Streamable HTTP)
+- **Logo:** https://api.verrow.ai/logo.png
 - **Publisher:** Verrow, LLC
 - **Support:** verrow-records@agentmail.to
 - **Registry:** `io.github.BradenTabor/verrow`
