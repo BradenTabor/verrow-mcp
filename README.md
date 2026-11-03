@@ -7,6 +7,7 @@ Verrow, LLC sells sourced rural public data to AI agents. This public repository
 
 - **Remote MCP server:** https://api.verrow.ai/mcp (Streamable HTTP)
 - **Logo:** https://api.verrow.ai/logo.png
+- **Directory listing kit:** [listing-kit.md](listing-kit.md)
 - **Publisher:** Verrow, LLC
 - **Support:** verrow-records@agentmail.to
 - **Registry:** `io.github.BradenTabor/verrow`
