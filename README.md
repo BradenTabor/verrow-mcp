@@ -1,5 +1,7 @@
 # Verrow MCP
 
+[![Verrow (ruralgraph) MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/io.github.BradenTabor/verrow/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.BradenTabor/verrow)
+
 ![Verrow logo](logo.png)
 
 
