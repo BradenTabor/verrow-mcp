@@ -72,14 +72,6 @@
       "description": "USDA soil data for a point (priced)"
     },
     {
-      "name": "check_license",
-      "description": "Arkansas contractor license lookup (priced)"
-    },
-    {
-      "name": "check_state_registration",
-      "description": "State pesticide registration check (priced)"
-    },
-    {
       "name": "spray_check",
       "description": "Combined spray compliance check (priced)"
     },
@@ -102,10 +94,6 @@
     {
       "name": "topup_credits",
       "description": "Add prepaid credit to an API key over x402 (priced)"
-    },
-    {
-      "name": "solar_siting_check",
-      "description": "Cited county/parcel solar siting rules (priced)"
     },
     {
       "name": "county_pack",
